@@ -1,4 +1,4 @@
-#
+# Exercise Tracker Microservices API
 Mini challenge completed for FCC in regards to learning APIs and microservices (for this challenge, Node/Express/MongoDB are used for API creation, Nodemon is used for live reloading, with allowed CORS policy).
 
 A database is set up so when the user types a new user in the input box and clicks "Submit", the POST method is invoked and user is saved in the database.
