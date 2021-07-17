@@ -2,8 +2,9 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const mongoose = require("mongoose");
-const convertDate = require("./convertDate");
-const prepareLogsForShowing = require("./prepareLogsForShowing");
+
+const convertDate = require("./services/convertDate");
+const prepareLogsForShowing = require("./services/prepareLogsForShowing");
 require("dotenv").config();
 
 app.use(cors());

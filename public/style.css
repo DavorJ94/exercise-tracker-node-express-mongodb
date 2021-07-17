@@ -11,7 +11,7 @@ body {
 
 h1 {
   font-weight: bold;
-  
+
 }
 
 p {
@@ -56,4 +56,10 @@ code {
   font-size: 1.2em;
   background-color: #FFFEC4;
   padding: 2px;
+}
+
+footer {
+  border: 2px solid black;
+  width: max-content;
+  padding: 1em;
 }
